@@ -16,3 +16,9 @@
 .custom-day.faded {
     background-color: rgba(2, 117, 216, 0.5);
 }
+input{
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,15 @@
+.col{
+    justify-content: center;
+    padding: 7;
+    margin: 10;
+}
+.row{
+    justify-content: center;
+    padding: 7;
+    margin: 10;
+}
+.col-sm{
+    justify-content: center;
+    padding: 7;
+    margin: 10;
+}
