@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\opa\\sajat\\backup\\archer\\archer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\opa\\sajat\\backup\\archer\\archer\\models\\playgroundd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\models\\playgroundd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\opa\\sajat\\backup\\archer\\archer\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\opa\\sajat\\backup\\archer\\archer\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\opa\\sajat\\backup\\archer\\archer\\controllers\\playgrounddscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\controllers\\playgrounddscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\opa\\sajat\\backup\\archer\\archer\\migrations\\20250303121634_ijasz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\migrations\\20250303121634_ijasz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250303121634_Ijasz.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Migrations\\20250303121634_Ijasz.cs",
+              "RelativeDocumentMoniker": "Archer\\Migrations\\20250303121634_Ijasz.cs",
+              "ToolTip": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Migrations\\20250303121634_Ijasz.cs",
+              "RelativeToolTip": "Archer\\Migrations\\20250303121634_Ijasz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T12:16:34.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Program.cs",
+              "RelativeDocumentMoniker": "Archer\\Program.cs",
+              "ToolTip": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Program.cs",
+              "RelativeToolTip": "Archer\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T12:08:18.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlaygrounddsController.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Controllers\\PlaygrounddsController.cs",
+              "RelativeDocumentMoniker": "Archer\\Controllers\\PlaygrounddsController.cs",
+              "ToolTip": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Controllers\\PlaygrounddsController.cs",
+              "RelativeToolTip": "Archer\\Controllers\\PlaygrounddsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T12:07:51.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Archer\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "Archer\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T12:07:05.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Playgroundd.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Models\\Playgroundd.cs",
+              "RelativeDocumentMoniker": "Archer\\Models\\Playgroundd.cs",
+              "ToolTip": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Models\\Playgroundd.cs",
+              "RelativeToolTip": "Archer\\Models\\Playgroundd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:55:08.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Archer\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Models\\Booking.cs",
+              "RelativeToolTip": "Archer\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:52:18.418Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

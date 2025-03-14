@@ -12,6 +12,9 @@ import { PlaygroundComponent } from './playground/playground.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { NavbarComponent } from './navbar/navbar.component';
     NewBookingComponent,
     PlaygroundComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    LoginComponent,
+    SignupComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
