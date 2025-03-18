@@ -1,12 +1,13 @@
-<h2>Login</h2>
-<form (ngSubmit)="onSubmit()" #loginForm="ngForm">
-  <div>
-    <label for="email">Email:</label>
-    <input type="email" id="email" required [(ngModel)]="email" name="email">
+<div class="login-card">
+
+  <div class="card-title">
+      <h1>Login</h1>
+      <span>You don't have an account? <a routerLink="/signup">Sign up</a></span>
   </div>
-  <div>
-    <label for="password">Password:</label>
-    <input type="password" id="password" required [(ngModel)]="password" name="password">
-  </div>
-  <button type="submit" [disabled]="!loginForm.form.valid">Login</button>
-</form>
+  <form class="form-group" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <input name="email" type="email" formControlName="email" placeholder="Email">
+      <input type="password" formControlName="password" placeholder="Password">
+      <button>Submit</button>
+  </form>
+
+</div>

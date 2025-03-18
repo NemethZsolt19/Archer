@@ -1,20 +1,39 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { inject } from '@angular/core';
+import { tap } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
+  
 })
+
+
+
 export class AuthService {
   private users: { email: string; password: string }[] = [];
   constructor() { }
 
-  register(email: string, password: string) {
-    this.users.push({ email, password });
-    console.log('User registered:', email);
+  httpClient = inject(HttpClient);
+  baseUrl = 'http://localhost:3000/api';
+
+  signup(data: any) {
+    return this.httpClient.post(`${this.baseUrl}/register`, data);
   }
 
-  login(email: string, password: string): boolean {
-    const user = this.users.find(u => u.email === email && u.password === password);
-    return !!user;
+  login(data: any) {
+    return this.httpClient.post(`${this.baseUrl}/login`, data)
+      .pipe(tap((result) => {
+        localStorage.setItem('authUser', JSON.stringify(result));
+      }));
+  }
+
+  logout() {
+    localStorage.removeItem('authUser');
+  }
+
+  isLoggedIn() {
+    return localStorage.getItem('authUser') !== null;
   }
 }
 

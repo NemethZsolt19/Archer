@@ -6,16 +6,19 @@ import { HomeComponent } from './home/home.component';
 import { NewBookingComponent } from './new-booking/new-booking.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
+  // {path: '', component: HomeComponent},
+  {path: 'home', component: HomeComponent},
   {path: 'booking', component: BookingsComponent},
   {path: 'new-booking', component: NewBookingComponent},
   {path: 'playground', component: PlaygroundComponent},
   {path: 'login', component: LoginComponent },
   {path: 'signup', component: SignupComponent },
-  // {path: '', redirectTo: '/login', pathMatch: 'full' },
+  {path: 'admin', component: AdminComponent },
+  {path: '', redirectTo: '/login', pathMatch: 'full' },
 
 ];
 

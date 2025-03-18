@@ -1,12 +1,15 @@
-<h2>Register</h2>
-<form (ngSubmit)="onSubmit()" #registerForm="ngForm">
-  <div>
-    <label for="email">Email:</label>
-    <input type="email" id="email" required [(ngModel)]="email" name="email">
+<div class="signup-card">
+  <div class="card-title">
+      <h1>Create Account</h1>
+      <span>Already have an account? <a routerLink="/login">Sign In</a></span>
   </div>
-  <div>
-    <label for="password">Password:</label>
-    <input type="password" id="password" required [(ngModel)]="password" name="password">
+  <form class="form-group" [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+      <input type="text" name="name" placeholder="Name" formControlName="name">
+      <input type="email" name="email" placeholder="Email" formControlName="email">
+      <input type="password" name="password" placeholder="Password" formControlName="password">
+      <input type="submit" value="Signup">
+  </form>
+  <div class="card-terms">
+      <input type="checkbox"> <span>I have read and agree to the <a href="">Terms of Service</a></span>
   </div>
-  <button type="submit" [disabled]="!registerForm.form.valid">Register</button>
-</form>
+</div>
