@@ -16,5 +16,6 @@ namespace Archer.Data
 
         public DbSet<Archer.Models.Booking> Booking { get; set; } = default!;
         public DbSet<Archer.Models.Playgroundd> Playgroundd { get; set; } = default!;
+        public DbSet<Archer.Models.register> register { get; set; } = default!;
     }
 }

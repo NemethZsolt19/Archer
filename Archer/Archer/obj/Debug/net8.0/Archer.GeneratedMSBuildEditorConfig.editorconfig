@@ -27,3 +27,27 @@ build_property.MSBuildProjectDirectory = C:\Users\Diak\dev\N.Zsolt\vizsgafront\A
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Diak/dev/N.Zsolt/vizsgafront/Archer/Archer/Views/registers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccmVnaXN0ZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Diak/dev/N.Zsolt/vizsgafront/Archer/Archer/Views/registers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccmVnaXN0ZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Diak/dev/N.Zsolt/vizsgafront/Archer/Archer/Views/registers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccmVnaXN0ZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Diak/dev/N.Zsolt/vizsgafront/Archer/Archer/Views/registers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccmVnaXN0ZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Diak/dev/N.Zsolt/vizsgafront/Archer/Archer/Views/registers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccmVnaXN0ZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Diak/dev/N.Zsolt/vizsgafront/Archer/Archer/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

@@ -789,3 +789,5 @@ C:\Users\Diak\dev\N.Zsolt\vizsgafront\Archer\Archer\obj\Debug\net8.0\refint\Arch
 C:\Users\Diak\dev\N.Zsolt\vizsgafront\Archer\Archer\obj\Debug\net8.0\Archer.pdb
 C:\Users\Diak\dev\N.Zsolt\vizsgafront\Archer\Archer\obj\Debug\net8.0\Archer.genruntimeconfig.cache
 C:\Users\Diak\dev\N.Zsolt\vizsgafront\Archer\Archer\obj\Debug\net8.0\ref\Archer.dll
+C:\Users\Diak\dev\N.Zsolt\vizsgafront\Archer\Archer\obj\Debug\net8.0\Archer.RazorAssemblyInfo.cache
+C:\Users\Diak\dev\N.Zsolt\vizsgafront\Archer\Archer\obj\Debug\net8.0\Archer.RazorAssemblyInfo.cs
