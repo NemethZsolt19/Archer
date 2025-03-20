@@ -1,7 +1,7 @@
 <div class="signup-card">
   <div class="card-title">
       <h1>Regisztrálás</h1>
-      <span>Már regisztrált?<a routerLink="/login">Bejelentkezés</a></span>
+      <span>Már regisztrált? <a routerLink="/login">Bejelentkezés</a></span>
   </div>
   <form class="form-group" [formGroup]="signupForm" (ngSubmit)="onSubmit()">
       <input type="text" name="name" placeholder="Name" formControlName="name">

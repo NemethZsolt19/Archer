@@ -2,7 +2,7 @@
 
   <div class="card-title">
       <h1>Bejelentkezés</h1>
-      <span>Nincs fiókja?<a routerLink="/signup">Regisztráljon</a></span>
+      <span>Nincs fiókja? <a routerLink="/signup">Regisztráljon</a></span>
   </div>
   <form class="form-group" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
       <input name="email" type="email" formControlName="email" placeholder="Email">
