@@ -14,5 +14,8 @@ export class NewBookingComponent {
 	date!: { year: number; month: number; };
 	
 
+  save() {
+    console.log(this.model);
+  }
 
 }
