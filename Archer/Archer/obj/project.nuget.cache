@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C46LZKhLw2w=",
+  "dgSpecHash": "JeT/pSAeqIw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Archer.csproj",
+  "projectFilePath": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Archer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diak\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Diak\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

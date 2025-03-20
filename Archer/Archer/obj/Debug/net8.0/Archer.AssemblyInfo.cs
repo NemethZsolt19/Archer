@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Archer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fb427563034d98368353fabfa61e06613e72c69")]
 [assembly: System.Reflection.AssemblyProductAttribute("Archer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Archer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

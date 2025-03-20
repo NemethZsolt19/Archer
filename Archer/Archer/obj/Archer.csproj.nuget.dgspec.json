@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Archer.csproj": {}
+    "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Archer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Archer.csproj": {
+    "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Archer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Archer.csproj",
+        "projectUniqueName": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Archer.csproj",
         "projectName": "Archer",
-        "projectPath": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\Archer.csproj",
+        "projectPath": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Archer.csproj",
         "packagesPath": "C:\\Users\\Diak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diak\\dev\\opa\\sajat\\backup\\Archer\\Archer\\obj\\",
+        "outputPath": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

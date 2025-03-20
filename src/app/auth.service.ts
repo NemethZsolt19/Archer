@@ -15,7 +15,7 @@ export class AuthService {
   constructor() { }
 
   httpClient = inject(HttpClient);
-  baseUrl = 'http://localhost:3000/api';
+  baseUrl = 'http://localhost:7038/api';
 
   signup(data: any) {
     return this.httpClient.post(`${this.baseUrl}/register`, data);
