@@ -1,2 +1,5 @@
 node_modules/
 *.local
+*.log
+functions\ijasz-csata-firebase-adminsdk-fbsvc-680850b77d.json
+ijasz-csata-firebase-adminsdk-fbsvc-680850b77d.json
