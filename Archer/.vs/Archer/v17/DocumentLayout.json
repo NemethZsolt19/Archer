@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\models\\playgroundd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\models\\playgroundd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\controllers\\registerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\controllers\\registerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\controllers\\playgrounddscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\controllers\\playgrounddscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,26 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\migrations\\20250303121634_ijasz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\migrations\\20250303121634_ijasz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\models\\playgroundd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\models\\playgroundd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|c:\\users\\diak\\dev\\n.zsolt\\vizsgafront\\archer\\archer\\controllers\\playgrounddscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9899328A-6A6D-42F0-8E9C-260F0452E487}|Archer\\Archer.csproj|solutionrelative:archer\\controllers\\playgrounddscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,29 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250320123048_reg.cs",
-              "DocumentMoniker": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Migrations\\20250320123048_reg.cs",
-              "RelativeDocumentMoniker": "Archer\\Migrations\\20250320123048_reg.cs",
-              "ToolTip": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Migrations\\20250320123048_reg.cs",
-              "RelativeToolTip": "Archer\\Migrations\\20250320123048_reg.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:30:48.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "registersController.cs",
               "DocumentMoniker": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Controllers\\registersController.cs",
               "RelativeDocumentMoniker": "Archer\\Controllers\\registersController.cs",
               "ToolTip": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Controllers\\registersController.cs",
               "RelativeToolTip": "Archer\\Controllers\\registersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T12:30:14.874Z",
               "EditorCaption": ""
@@ -83,11 +71,12 @@
               "RelativeToolTip": "Archer\\Models\\register.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:27:27.09Z"
+              "WhenOpened": "2025-03-20T12:27:27.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "20250303121634_Ijasz.cs",
               "DocumentMoniker": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Migrations\\20250303121634_Ijasz.cs",
               "RelativeDocumentMoniker": "Archer\\Migrations\\20250303121634_Ijasz.cs",
@@ -99,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Program.cs",
               "RelativeDocumentMoniker": "Archer\\Program.cs",
@@ -107,35 +96,38 @@
               "RelativeToolTip": "Archer\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T12:08:18.165Z"
+              "WhenOpened": "2025-03-03T12:08:18.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "PlaygrounddsController.cs",
               "DocumentMoniker": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Controllers\\PlaygrounddsController.cs",
               "RelativeDocumentMoniker": "Archer\\Controllers\\PlaygrounddsController.cs",
               "ToolTip": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Controllers\\PlaygrounddsController.cs",
               "RelativeToolTip": "Archer\\Controllers\\PlaygrounddsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T12:07:51.815Z"
+              "WhenOpened": "2025-03-03T12:07:51.815Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "BookingsController.cs",
               "DocumentMoniker": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Controllers\\BookingsController.cs",
               "RelativeDocumentMoniker": "Archer\\Controllers\\BookingsController.cs",
               "ToolTip": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Controllers\\BookingsController.cs",
               "RelativeToolTip": "Archer\\Controllers\\BookingsController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAcwA4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T12:07:05.852Z"
+              "WhenOpened": "2025-03-03T12:07:05.852Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Playgroundd.cs",
               "DocumentMoniker": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Models\\Playgroundd.cs",
               "RelativeDocumentMoniker": "Archer\\Models\\Playgroundd.cs",
@@ -143,19 +135,33 @@
               "RelativeToolTip": "Archer\\Models\\Playgroundd.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T14:55:08.905Z"
+              "WhenOpened": "2025-02-25T14:55:08.905Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "Archer\\Models\\Booking.cs",
               "ToolTip": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Models\\Booking.cs",
               "RelativeToolTip": "Archer\\Models\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T14:52:18.418Z"
+              "WhenOpened": "2025-02-25T14:52:18.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250320123048_reg.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Migrations\\20250320123048_reg.cs",
+              "RelativeDocumentMoniker": "Archer\\Migrations\\20250320123048_reg.cs",
+              "ToolTip": "C:\\Users\\Diak\\dev\\N.Zsolt\\vizsgafront\\Archer\\Archer\\Migrations\\20250320123048_reg.cs",
+              "RelativeToolTip": "Archer\\Migrations\\20250320123048_reg.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:30:48.2Z"
             }
           ]
         }

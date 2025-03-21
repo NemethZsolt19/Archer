@@ -5,6 +5,28 @@
 /tmp
 /out-tsc
 /bazel-out
+ijasz-csata-firebase-adminsdk-fbsvc-680850b77d.json
+environment.prod.ts
+environment.ts
+#firebase
+functions/ijasz-csata-firebase-adminsdk-fbsvc-680850b77d.json
+ijasz-csata-firebase-adminsdk-fbsvc-680850b77d.json
+/src/environments/environments.ts
+/src/environments/environments.prod.ts
+src/environments/environments.ts
+src/environments/environments.prod.ts
+/functions/node_modules
+functions/node_modules
+environments.ts
+environments.prod.ts
+environment.prod.ts
+environment.ts
+/.firebase
+
+dist/
+public/
+.firebaserc
+firebase.json
 
 # Node
 /node_modules

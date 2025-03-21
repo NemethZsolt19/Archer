@@ -1,13 +1,33 @@
-<div class="login-card">
+<div class="card" >
+  
+  <div class="card-body">
+    <h5 class="card-title">Sign In</h5>
 
-  <div class="card-title">
-      <h1>Bejelentkezés</h1>
-      <span>Nincs fiókja? <a routerLink="/signup">Regisztráljon</a></span>
-  </div>
-  <form class="form-group" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-      <input name="email" type="email" formControlName="email" placeholder="Email">
-      <input type="password" formControlName="password" placeholder="Password">
-      <button>Submit</button>
-  </form>
+    <div class="form-floating mb-3">
+      <input [(ngModel)]="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+
+    <div class="input-group mb-3">
+     
+      <div class="form-floating">
+        <input [(ngModel)]="password" type="password" class="form-control" id="floatingInputGroup1" placeholder="Username">
+        <label for="floatingInputGroup1">Password</label>
+      </div>
+      <span class="eye input-group-text"><i class="bi bi-eye"></i></span>
+    </div>
+
+    <button type="button" (click)="forgotPassword()"  class="btn btn-primary">Forgot password</button>
+
+    
+    <div class="form-floating my-3">
+      <button type="button" (click)="signIn()"  class="btn btn-primary">Login</button>
+      <span class="ms-3"> 
+          <!-- <a  class="stretched-link">Forgot password?</a> -->
+      </span>  
+    </div> 
+    <div *ngIf="emailPassError" class="alert alert-danger" role="alert">
+      Sign in error! {{emailPassMessage|json}}
+    </div>
 
 </div>
