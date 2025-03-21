@@ -1,13 +1,39 @@
-<div class="signup-card">
-  <div class="card-title">
-      <h1>Regisztrálás</h1>
-      <span>Már regisztrált? <a routerLink="/login">Bejelentkezés</a></span>
-  </div>
-  <form class="form-group" [formGroup]="signupForm" (ngSubmit)="onSubmit()">
-      <input type="text" name="name" placeholder="Name" formControlName="name">
-      <input type="email" name="email" placeholder="Email" formControlName="email">
-      <input type="password" name="password" placeholder="Password" formControlName="password">
-      <input type="submit" value="Signup">
-  </form>
+<div class="card" >
+  
+  <div class="card-body">
+    <h5 class="card-title">Sign Up</h5>
 
+    <div class="form-floating mb-3">
+      <input type="email" [(ngModel)]="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+
+    <div class="input-group mb-3">     
+      <div class="form-floating">
+        <input type="password" [(ngModel)]="password" class="form-control" id="pass1" placeholder="Username">
+        <label for="pass1">Password</label>
+      </div>
+      <span class="eye input-group-text"><i class="bi bi-eye"></i></span>
+    </div>
+
+    <div class="input-group mb-3">     
+      <div class="form-floating">
+        <input type="password" [(ngModel)]="passwordAgain" class="form-control" id="pass2" placeholder="Username">
+        <label for="pass2">Password Confirm</label>
+      </div>
+      <span class="eye input-group-text"><i class="bi bi-eye"></i></span>
+    </div>
+
+
+    
+    <div class="form-floating my-3">
+      <button type="button" (click)="signUpMailPassword()"  class="btn btn-primary">Sign Up</button>
+    </div> 
+    <div *ngIf="emailPassError" class="alert alert-danger" role="alert">
+      Sign up error! {{emailPassMessage|json}}
+    </div>
+
+
+  </div>
 </div>
+

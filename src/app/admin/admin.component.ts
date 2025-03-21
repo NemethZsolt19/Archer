@@ -11,7 +11,7 @@ export class AdminComponent {
   authService = inject(AuthService);
   router = inject(Router);
   public logout(){
-    this.authService.logout();
+    // this.authService.logout();
     this.router.navigate(['/login']);
   }
 }

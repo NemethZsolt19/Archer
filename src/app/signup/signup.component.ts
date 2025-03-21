@@ -10,24 +10,35 @@ import { AuthService } from '../auth.service';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent {
-  email: string = '';
-  password: string = '';
-  authService  =  inject(AuthService);
-router  =  inject(Router);
+  username=""
+  email=""
+  password=""
+  passwordAgain=""
 
-public onSubmit() {
-  if (this.signupForm.valid) {
-    console.log(this.signupForm.value);
-    this.authService.signup(this.signupForm.value)
-      .subscribe({
-        next: (data: any) => {
-          console.log(data);
-          this.router.navigate(['/login']);
-        },
-        error: (err) => console.log(err)
-      });
-    }
-  }
+  emailPassError=false
+  emailPassMessage=""
+
+
+  constructor(private auth:AuthService, private router:Router){}
+
+signUpMailPassword(){
+  console.log(this.email,"; ",this.password)
+  this.auth.signUpMailPassword(this.email, this.password)
+}
+
+// public onSubmit() {
+//   if (this.signupForm.valid) {
+//     console.log(this.signupForm.value);
+//     this.authService.signup(this.signupForm.value)
+//       .subscribe({
+//         next: (data: any) => {
+//           console.log(data);
+//           this.router.navigate(['/login']);
+//         },
+//         // error: (err) => console.log(err)
+//       });
+//     }
+//   }
 
   public signupForm = new FormGroup({
     name: new FormControl('', [Validators.required]),
