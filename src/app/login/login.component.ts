@@ -36,9 +36,17 @@ export class LoginComponent {
 
   }
 
+  
+  signGoogle(){
+    this.auth.signGoogleAuth()
+  }
+
+
   forgotPassword(){
     this.auth.forgotPassword(this.email)
   }
+
+
 }
 
   // email: string = '';

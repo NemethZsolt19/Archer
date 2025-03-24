@@ -8,6 +8,7 @@ import { Injectable } from '@angular/core';
 export class BaseService {
   url="https://localhost:7038/api/"
   constructor(private http:HttpClient) { }
+  //getLoggedUser
 
   getPlaygroundd(){
     return this.http.get(this.url+"Playgroundd")

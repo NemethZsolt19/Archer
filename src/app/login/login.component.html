@@ -26,6 +26,9 @@
           <!-- <a  class="stretched-link">Forgot password?</a> -->
       </span>  
     </div> 
+    <div class="form-floating my-3">
+      <button type="button" (click)="signGoogle()"  class="btn btn-primary">Sign In with Google</button>
+    </div> 
     <div *ngIf="emailPassError" class="alert alert-danger" role="alert">
       Sign in error! {{emailPassMessage|json}}
     </div>

@@ -29,6 +29,9 @@
     <div class="form-floating my-3">
       <button type="button" (click)="signUpMailPassword()"  class="btn btn-primary">Sign Up</button>
     </div> 
+    <div class="form-floating my-3">
+      <button type="button" (click)="signGoogle()"  class="btn btn-primary">Sign Up with Google</button>
+    </div> 
     <div *ngIf="emailPassError" class="alert alert-danger" role="alert">
       Sign up error! {{emailPassMessage|json}}
     </div>

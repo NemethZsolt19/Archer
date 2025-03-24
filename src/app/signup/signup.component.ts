@@ -46,4 +46,11 @@ signUpMailPassword(){
     password: new FormControl('', [Validators.required])
   })
 
+  signGoogle(){
+    this.auth.signGoogleAuth()
+  }
+
 }
+
+
+

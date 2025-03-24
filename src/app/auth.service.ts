@@ -3,6 +3,7 @@ import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { BehaviorSubject } from 'rxjs';
 import { Router } from '@angular/router';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { GoogleAuthProvider } from '@angular/fire/auth';
 // import { inject } from '@angular/core';
 // import { tap } from 'rxjs/operators';
 
@@ -117,6 +118,14 @@ export class AuthService {
     return this.userSub
    }
 
+  
+   signGoogleAuth(){
+    console.log("Google Auth!!!+")
+    this.afAuth.signInWithPopup(new GoogleAuthProvider()).then(
+      ()=>this.router.navigate(['/home'])
+    ).catch((e)=>console.log("hIBA",e))
+
+  }
   signUpMailPassword(email:string, password:string){
     this.afAuth.createUserWithEmailAndPassword(email, password)
     .then(()=>{
