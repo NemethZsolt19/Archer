@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { BookingsComponent } from './bookings/bookings.component';
 import { NewBookingComponent } from './new-booking/new-booking.component';
 import { provideHttpClient } from '@angular/common/http';
 import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -23,7 +22,6 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 @NgModule({
   declarations: [
     AppComponent,
-    BookingsComponent,
     NewBookingComponent,
     PlaygroundComponent,
     HomeComponent,

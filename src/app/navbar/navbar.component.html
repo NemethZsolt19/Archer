@@ -12,16 +12,17 @@
           <a class="nav-link" routerLink="playground">Játékterületek<span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="new-booking">Időpontkérés<span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="booking">Foglalásaid<span class="sr-only"></span></a>
+          <a class="nav-link" routerLink="new-booking">Foglalás<span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="login">Belépés<span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="signup">Regisztráció<span class="sr-only"></span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" (click)="logout()">Kijelentkezés</a>
         </li>
 
       </ul>
