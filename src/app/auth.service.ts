@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Subject } from 'rxjs';
 import { Router } from '@angular/router';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { GoogleAuthProvider } from '@angular/fire/auth';
@@ -13,7 +13,7 @@ import { GoogleAuthProvider } from '@angular/fire/auth';
 })
 export class AuthService {
   loggedUser:any
-  private userSub = new BehaviorSubject<any>(null)
+  private userSub = new Subject()
   private adminSub = new BehaviorSubject<boolean>(false)
   private loggedUserSub = new BehaviorSubject<boolean>(false)
 

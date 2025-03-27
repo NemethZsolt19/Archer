@@ -18,6 +18,7 @@ import { environments } from '../environments/environments';
 import { AngularFireModule } from '@angular/fire/compat'
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+import { SearchBookingPipe } from './search-booking.pipe';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
     LoginComponent,
     SignupComponent,
     AdminComponent,
+    SearchBookingPipe,
   ],
   imports: [
     BrowserModule,

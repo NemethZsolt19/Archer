@@ -15,6 +15,14 @@
 
 
 <hr />
-{{booking|json}}
+<ng-container *ngIf="user && bookings">
+<div *ngFor="let item of bookings|searchBooking:user.uid" class="row">
+    <div class="col">{{item|json}}</div>
+    <div class="col"><button type="button" (click)="editBooking(item)" class="btn btn-primary">Szerkesztés</button></div>
+    <div class="col"><button type="button" (click)="deleteBooking(item)" class="btn btn-primary">Törlés</button></div>
+</div>
+</ng-container> 
+<!-- user:{{user|json}}
+{{booking|json}} -->
 <!-- <pre>Month: {{ date.month }}.{{ date.year }}</pre>
 <pre>Model: {{ model | json }}</pre> -->

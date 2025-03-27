@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const admin =require("firebase-admin")
 
-var serviceAccount = require("./ijasz-csata-firebase-adminsdk-fbsvc-680850b77d.json");
+var serviceAccount = require("./ijasz-csata-firebase-adminsdk-fbsvc-5008137558.json");
 const { LOG_ERROR } = require("karma/lib/constants");
 
 admin.initializeApp({

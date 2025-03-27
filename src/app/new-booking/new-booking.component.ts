@@ -16,18 +16,21 @@ export class NewBookingComponent {
 
 	model!: NgbDateStruct;
 	date!: { year: number; month: number; };
-name: any;
-playgroundd: any;
-type: any;
-time: any;
+// name: any;
+// playgroundd: any;
+// type: any;
+// time: any;
 	
+user:any
 
   save() {
     console.log(this.model);
   }
 
-  booking:any={}
+  bookings:any={}
+
   newBooking:any={}
+
   columns=[
     {key:"name", label:"Név"},
     {key:"playgroundd", label:"Pálya"},
@@ -37,7 +40,14 @@ time: any;
   ]
 
   constructor(private base:BaseService, private auth:AuthService){
-    
+    this.auth.getLoggedUser().subscribe(
+      (user:any)=>{
+        this.user=user
+        this.newBooking.name=user.displayName       
+      }
+    )
+
+
     this.base.getBooking().snapshotChanges().pipe(
       map(
         (changes) => changes.map(
@@ -45,20 +55,40 @@ time: any;
         )
       )
     ).subscribe(
-      (res)=>this.booking=res
+      (res)=>{
+        this.bookings=res
+        console.log(this.bookings)
+        }
     )
+
+
   }
 
   pushBooking(){
-    console.log(this.newBooking, "megy")
-    this.base.pushBooking(this.newBooking)
+  
+    if (!this.newBooking.uid){     
+      this.newBooking.uid=this.user.uid
+      this.base.pushBooking(this.newBooking)
+    }
+    else {
+      this.base.updateBooking(this.newBooking)
+    }
     this.newBooking={}
+    this.newBooking.name=this.user.displayName
    
   }
 
+  
 
+  deleteBooking(booking:any){
+    this.base.deleteBooking(booking)
+  }
 
+  editBooking(booking:any){
+    this.newBooking=booking
+  }
 
+ 
 }
 
 
