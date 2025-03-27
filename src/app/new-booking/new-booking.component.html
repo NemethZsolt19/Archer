@@ -1,8 +1,23 @@
 <p>Új foglalás</p>
 
 <input [(ngModel)]="newBooking.name" type="text" placeholder="Név">
-<input [(ngModel)]="newBooking.playgroundd" type="text" placeholder="Pálya név">
-<input [(ngModel)]="newBooking.type" type="text" placeholder="Játékmód">
+<select class="form-select" aria-label="Default select example" [(ngModel)]="newBooking.playgroundd" type="text" placeholder="Pálya név">
+    <option value="1">Gyakorló</option>
+    <option value="2">Viadal</option>
+    <option value="3">2Bázis</option>
+    <option value="4">Por 2</option>
+    <option value="5">Temető</option>
+  </select>
+
+  <select class="form-select" aria-label="Default select example" [(ngModel)]="newBooking.type" type="text" placeholder="Játékmód">
+    <option value="1">Seregbevonulás</option>
+    <option value="2">Célbalővés</option>
+    <option value="3">Háború</option>
+    <option value="4">Zászlófoglalás</option>
+    <option value="5">Hegylakó</option>
+  </select>
+
+
 
 
 <ngb-datepicker #dp [(ngModel)]="newBooking.date" (navigate)="date = $event.next" />
@@ -15,13 +30,18 @@
 
 
 <hr />
-<ng-container *ngIf="user && bookings">
-<div *ngFor="let item of bookings|searchBooking:user.uid" class="row">
-    <div class="col">{{item|json}}</div>
-    <div class="col"><button type="button" (click)="editBooking(item)" class="btn btn-primary">Szerkesztés</button></div>
-    <div class="col"><button type="button" (click)="deleteBooking(item)" class="btn btn-primary">Törlés</button></div>
+
+<div class="row row-cols-1 row-cols-md-4 g-4">
+    <ng-container *ngIf="user && bookings">
+        <div *ngFor="let item of bookings|searchBooking:user.uid" class="row">
+            <div class="col">{{item.name}}</div>
+            <div class="col">{{item.playgroundd}}</div>
+            <div class="col">{{item.type}}</div>
+            <div class="col2"><button type="button" (click)="editBooking(item)" class="btn btn-primary">Szerkesztés</button></div>
+            <div class="col2"><button type="button" (click)="deleteBooking(item)" class="btn btn-primary">Törlés</button></div>
+        </div>
+    </ng-container> 
 </div>
-</ng-container> 
 <!-- user:{{user|json}}
 {{booking|json}} -->
 <!-- <pre>Month: {{ date.month }}.{{ date.year }}</pre>
