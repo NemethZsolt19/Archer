@@ -1,20 +1,20 @@
 <p>Új foglalás</p>
 
-<input type="text" placeholder="Név">
-<input type="text" placeholder="Pálya név">
-<input type="text" placeholder="Játékmód">
+<input [(ngModel)]="newBooking.name" type="text" placeholder="Név">
+<input [(ngModel)]="newBooking.playgroundd" type="text" placeholder="Pálya név">
+<input [(ngModel)]="newBooking.type" type="text" placeholder="Játékmód">
 
 
-<ngb-datepicker #dp [(ngModel)]="model" (navigate)="date = $event.next" />
-<input type="time" placeholder="Óra">
+<ngb-datepicker #dp [(ngModel)]="newBooking.date" (navigate)="date = $event.next" />
+<input [(ngModel)]="newBooking.time" type="time" placeholder="Óra">
 <hr />
 
-<button class="btn btn-sm btn-outline-primary me-2" (click)="model = today">Mai nap</button>
+<button class="btn btn-sm btn-outline-primary me-2" (click)="date = today">Mai nap</button>
 <button class="btn btn-sm btn-outline-primary me-2" (click)="dp.navigateTo()">Jelenlegi hónap</button>
 <button class="btn btn-sm btn-outline-primary me-2" (click)="pushBooking()">Mentés</button>
 
 
 <hr />
-
+{{booking|json}}
 <!-- <pre>Month: {{ date.month }}.{{ date.year }}</pre>
 <pre>Model: {{ model | json }}</pre> -->
