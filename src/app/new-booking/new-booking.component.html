@@ -33,7 +33,7 @@
 
 <div class="row row-cols-1 row-cols-md-4 g-4">
     <ng-container *ngIf="user && bookings">
-        <div *ngFor="let item of bookings|searchBooking:user.uid" class="row">
+        <div *ngFor="let item of bookings|searchBooking:user.displayName" class="row">
             <div class="col">{{item.name}}</div>
             <div class="col">{{item.playgroundd}}</div>
             <div class="col">{{item.type}}</div>
@@ -43,6 +43,6 @@
     </ng-container> 
 </div>
 <!-- user:{{user|json}}
-{{booking|json}} -->
-<!-- <pre>Month: {{ date.month }}.{{ date.year }}</pre>
+{{bookings|json}}
+<pre>Month: {{ date.month }}.{{ date.year }}</pre>
 <pre>Model: {{ model | json }}</pre> -->

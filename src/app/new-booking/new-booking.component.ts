@@ -16,12 +16,12 @@ export class NewBookingComponent {
 
 	model!: NgbDateStruct;
 	date!: { year: number; month: number; };
-// name: any;
-// playgroundd: any;
-// type: any;
-// time: any;
+name: any;
+playgroundd: any;
+type: any;
+time: any;
 	
-user:any
+ user:any
 
   save() {
     console.log(this.model);
@@ -38,6 +38,8 @@ user:any
     {key:"date", label:"Datum"},
     {key:"time", label:"Idő"}
   ]
+
+ 
 
   constructor(private base:BaseService, private auth:AuthService){
     this.auth.getLoggedUser().subscribe(
