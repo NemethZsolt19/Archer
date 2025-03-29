@@ -1,27 +1,32 @@
-<p>Új foglalás</p>
+<!-- {{newBooking2|json}} -->
+<!-- {{bookings| json}} -->
+<!-- {{user| json}} -->
+<h1>Új foglalás</h1>
 
-<input [(ngModel)]="newBooking.name" type="text" placeholder="Név">
-<select class="form-select" aria-label="Default select example" [(ngModel)]="newBooking.playgroundd" type="text" placeholder="Pálya név">
-    <option value="1">Gyakorló</option>
-    <option value="2">Viadal</option>
-    <option value="3">2Bázis</option>
-    <option value="4">Por 2</option>
-    <option value="5">Temető</option>
-  </select>
+<input [(ngModel)]="newBooking2.displayName" type="text" placeholder="Név">
+<select class="form-select" aria-label="Default select example" [(ngModel)]="newBooking2.playground" type="text"
+  placeholder="Pálya név">
+  <option text="Gyakorló">Gyakorló</option>
+  <option text="Viadal">Viadal</option>
+  <option text="2Bázis">2Bázis</option>
+  <option text="Por 2">Por 2</option>
+  <option text="Temető">Temető</option>
+</select>
 
-  <select class="form-select" aria-label="Default select example" [(ngModel)]="newBooking.type" type="text" placeholder="Játékmód">
-    <option value="1">Seregbevonulás</option>
-    <option value="2">Célbalővés</option>
-    <option value="3">Háború</option>
-    <option value="4">Zászlófoglalás</option>
-    <option value="5">Hegylakó</option>
-  </select>
+<select class="form-select" aria-label="Default select example" [(ngModel)]="newBooking2.type" type="text"
+  placeholder="Játékmód">
+  <option text="Seregbevonulás">Seregbevonulás</option>
+  <option text="Célbalővés">Célbalővés</option>
+  <option text="Háboró">Háború</option>
+  <option text="Zászlófoglalás">Zászlófoglalás</option>
+  <option text="Hegylakó">Hegylakó</option>
+</select>
 
 
 
 
-<ngb-datepicker #dp [(ngModel)]="newBooking.date" (navigate)="date = $event.next" />
-<input [(ngModel)]="newBooking.time" type="time" placeholder="Óra">
+<ngb-datepicker #dp [(ngModel)]="newBooking2.date" (navigate)="date = $event.next" />
+<input [(ngModel)]="newBooking2.time" type="time" placeholder="Óra">
 <hr />
 
 <button class="btn btn-sm btn-outline-primary me-2" (click)="date = today">Mai nap</button>
@@ -31,18 +36,23 @@
 
 <hr />
 
-<div class="row row-cols-1 row-cols-md-4 g-4">
-    <ng-container *ngIf="user && bookings">
-        <div *ngFor="let item of bookings|searchBooking:user.displayName" class="row">
-            <div class="col">{{item.name}}</div>
-            <div class="col">{{item.playgroundd}}</div>
-            <div class="col">{{item.type}}</div>
-            <div class="col2"><button type="button" (click)="editBooking(item)" class="btn btn-primary">Szerkesztés</button></div>
-            <div class="col2"><button type="button" (click)="deleteBooking(item)" class="btn btn-primary">Törlés</button></div>
+<h5>Foglalásaid</h5>
+<div class="row">
+  <ng-container *ngIf="user && bookings">
+    <div *ngFor="let item of bookings|searchBooking:user.uid" class="row">
+      <div class="box">
+        <div class="col">{{item.displayName}}</div>
+        <div class="col2">{{item.playground}}</div>
+        <div class="col3">{{item.type}}</div>
+        <div class="col4"><button type="button" (click)="editBooking(item)" class="btn btn-primary">Szerkesztés</button>
         </div>
-    </ng-container> 
+        <div class="col5"><button type="button" (click)="deleteBooking(item)" class="btn btn-primary">Törlés</button>
+        </div>
+      </div>
+    </div>
+  </ng-container>
 </div>
 <!-- user:{{user|json}}
-{{bookings|json}}
-<pre>Month: {{ date.month }}.{{ date.year }}</pre>
+{{booking|json}} -->
+<!-- <pre>Month: {{ date.month }}.{{ date.year }}</pre>
 <pre>Model: {{ model | json }}</pre> -->

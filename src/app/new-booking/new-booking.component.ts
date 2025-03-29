@@ -2,7 +2,7 @@ import { Component, inject } from '@angular/core';
 import { NgbCalendar, NgbDate, NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
 import { BaseService } from '../base.service';
 import { AuthService } from '../auth.service';
-import {map} from 'rxjs'
+import { map } from 'rxjs'
 
 
 @Component({
@@ -12,40 +12,46 @@ import {map} from 'rxjs'
 })
 export class NewBookingComponent {
 
-	today = inject(NgbCalendar).getToday();
+  today = inject(NgbCalendar).getToday();
 
-	model!: NgbDateStruct;
-	date!: { year: number; month: number; };
-name: any;
-playgroundd: any;
-type: any;
-time: any;
-	
- user:any
+  model!: NgbDateStruct;
+  date!: { year: number; month: number; };
+  // name: any;
+  // playgroundd: any;
+  // type: any;
+  // time: any;
 
-  save() {
-    console.log(this.model);
-  }
+  user: any
 
-  bookings:any={}
+  // save() {
+  //   console.log(this.model);
+  // }
 
-  newBooking:any={}
+  bookings: any = {}
 
-  columns=[
-    {key:"name", label:"Név"},
-    {key:"playgroundd", label:"Pálya"},
-    {key:"type", label:"Játékmód"},
-    {key:"date", label:"Datum"},
-    {key:"time", label:"Idő"}
-  ]
+  newBooking2: any
 
- 
+  // columns = [
+  //   { key: "displayName", label: "Név" },
+  //   { key: "playgroundd", label: "Pálya" },
+  //   { key: "type", label: "Játékmód" },
+  //   { key: "date", label: "Datum" },
+  //   { key: "time", label: "Idő" }
+  // ]
 
-  constructor(private base:BaseService, private auth:AuthService){
+  constructor(private base: BaseService, private auth: AuthService) {
     this.auth.getLoggedUser().subscribe(
-      (user:any)=>{
-        this.user=user
-        this.newBooking.name=user.displayName       
+      (user: any) => {
+        this.user = user
+        console.log("useruid", user.uid)
+        console.log("userdName", user.displayName)
+        console.log("user2", user)
+        // this.newBooking = {}
+        this.newBooking2 = {}
+        this.newBooking2.displayName = user.displayName
+        // this.newBooking2.uid = user.uid
+
+        console.log("newBooking", this.newBooking2)
       }
     )
 
@@ -57,40 +63,43 @@ time: any;
         )
       )
     ).subscribe(
-      (res)=>{
-        this.bookings=res
+      (res) => {
+        this.bookings = res
         console.log(this.bookings)
-        }
+      }
     )
 
 
   }
 
-  pushBooking(){
-  
-    if (!this.newBooking.uid){     
-      this.newBooking.uid=this.user.uid
-      this.base.pushBooking(this.newBooking)
+  pushBooking() {
+
+    if (!this.newBooking2.uid) {
+      console.log("nBook1", this.newBooking2)
+      this.newBooking2.uid = this.user.uid
+      this.base.pushBooking(this.newBooking2)
     }
     else {
-      this.base.updateBooking(this.newBooking)
+      console.log("nBook2", this.newBooking2)
+      this.base.updateBooking(this.newBooking2)
     }
-    this.newBooking={}
-    this.newBooking.name=this.user.displayName
-   
+    // console.log("nBook", this.newBooking2)
+    this.newBooking2 = {}
+    this.newBooking2.displayName = this.user.displayName
+    this.newBooking2.uid = this.user.uid
   }
 
-  
 
-  deleteBooking(booking:any){
+
+  deleteBooking(booking: any) {
     this.base.deleteBooking(booking)
   }
 
-  editBooking(booking:any){
-    this.newBooking=booking
+  editBooking(booking: any) {
+    this.newBooking2 = booking
   }
 
- 
+
 }
 
 
