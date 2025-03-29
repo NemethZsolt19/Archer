@@ -25,7 +25,7 @@
 
 
 
-<ngb-datepicker #dp [(ngModel)]="newBooking2.date" (navigate)="date = $event.next" />
+<ngb-datepicker #dp [minDate]="minDate" [(ngModel)]="newBooking2.date" (navigate)="date = $event.next" />
 <input [(ngModel)]="newBooking2.time" type="time" placeholder="Óra">
 <hr />
 

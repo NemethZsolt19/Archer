@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { NgbCalendar, NgbDate, NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCalendar, NgbDate, NgbDatepickerConfig, NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
 import { BaseService } from '../base.service';
 import { AuthService } from '../auth.service';
 import { map } from 'rxjs'
@@ -39,7 +39,7 @@ export class NewBookingComponent {
   //   { key: "time", label: "Idő" }
   // ]
 
-  constructor(private base: BaseService, private auth: AuthService) {
+  constructor(private base: BaseService, private auth: AuthService, private config: NgbDatepickerConfig) {
     this.auth.getLoggedUser().subscribe(
       (user: any) => {
         this.user = user
@@ -100,6 +100,16 @@ export class NewBookingComponent {
   }
 
 
+
+  current = new Date();
+  minDate = {
+    year: this.current.getFullYear(),
+    month: this.current.getMonth() + 1,
+    day: this.current.getDate()
+  };
+
 }
+
+
 
 
