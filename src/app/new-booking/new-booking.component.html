@@ -1,7 +1,7 @@
 <!-- {{newBooking2|json}} -->
 <!-- {{bookings| json}} -->
 <!-- {{user| json}} -->
-<h1>Új foglalás</h1>
+<h1>Pálya foglalás</h1>
 
 <input [(ngModel)]="newBooking2.displayName" type="text" placeholder="Név">
 <select class="form-select" aria-label="Default select example" [(ngModel)]="newBooking2.playground" type="text"
@@ -25,7 +25,7 @@
 
 
 
-<ngb-datepicker #dp [minDate]="minDate" [(ngModel)]="newBooking2.date" (navigate)="date = $event.next" />
+<ngb-datepicker #dp [minDate]="minDate" [(ngModel)]="newBooking2.date" (navigate)="date = $event.next"/>
 <input [(ngModel)]="newBooking2.time" type="time" placeholder="Óra">
 <hr />
 
@@ -41,9 +41,10 @@
   <ng-container *ngIf="user && bookings">
     <div *ngFor="let item of bookings|searchBooking:user.uid" class="row">
       <div class="box">
-        <div class="col">{{item.displayName}}</div>
-        <div class="col2">{{item.playground}}</div>
-        <div class="col3">{{item.type}}</div>
+        <div class="col">Foglaló neve: {{item.displayName}}</div>
+        <div class="col2">A pálya amit foglalt: {{item.playground}}</div>
+        <div class="col3">A játékmód amit választott: {{item.type}}</div>
+        <div class="col4">Az időpont: {{item.time}}</div>
         <div class="col4"><button type="button" (click)="editBooking(item)" class="btn btn-primary">Szerkesztés</button>
         </div>
         <div class="col5"><button type="button" (click)="deleteBooking(item)" class="btn btn-primary">Törlés</button>

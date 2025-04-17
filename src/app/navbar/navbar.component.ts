@@ -17,7 +17,7 @@ export class NavbarComponent {
   
   logout(){
     this.auth.signOut()
-      .then(()=>console.log("Kiléptél!"))
+      .then(()=>console.log("Kilépés sikeres!"))
       .catch(()=>console.log("Hiba a kilépésnél!"))
   }
 }
